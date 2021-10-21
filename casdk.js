@@ -89,7 +89,7 @@ var createCustomApplication = function(name, options) {
 
 		}
 
-		fs.writeFile(outputLocation + '/' + key, appContent);
+		fs.writeFileSync(outputLocation + '/' + key, appContent);
 
 	});
 
